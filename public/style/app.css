@@ -1,47 +1,174 @@
 /* ########### FONTS ############ */
-
-
+@font-face {
+  font-family: "okine";
+  src: url("../assets/fonts/MADEOkineSansPERSONALUSE-Regular.otf");
+}
 /* ############ BODY ############  */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    min-width: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  min-width: 0;
 }
 
 body {
-    background-color: #FFFFFF;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: #2c2c2c;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ########### HEADER ########### */
-
-
+/* ######### RESPONSIVE ######### */
+/* ### SMARTPHONE ### */
+/* ### TABLET ### */
+/* ### DESKTOP ### */
+/* ### BIG DESKTOP ### */
 /* ############ MAIN ############ */
-
-
-/* ########### FOOTER ########### */
-
+/* ######### RESPONSIVE ######### */
+/* ### SMARTPHONE ### */
+/* ### TABLET ### */
+/* ### DESKTOP ### */
+/* ### BIG DESKTOP ### */
+/* ### SECTION PASSWORD GENERATOR ### */
+.password-generator {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.password-generator .pwg-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.password-generator .pwg-content .pwg-card {
+  width: 320px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #5E4B86;
+  border-radius: 10px;
+}
+.password-generator .pwg-content .pwg-card .pwg-card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.password-generator .pwg-content .pwg-card .pwg-card-title h1 {
+  font-family: "okine";
+  font-size: 28px;
+  color: #f2d357;
+}
+.password-generator .pwg-content .pwg-card .pwg-card-pw {
+  margin: 0 8%;
+  padding: 0 15px;
+  width: 84%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #382c50;
+  border-radius: 8px;
+}
+.password-generator .pwg-content .pwg-card .pwg-card-pw .card-pw-text input {
+  background: none;
+  border: none;
+  border-bottom: #f2d357 2px solid;
+  color: #FFF;
+  outline: none;
+  height: 33px;
+  width: 90%;
+  font-size: 18px;
+}
+.password-generator .pwg-content .pwg-card .pwg-card-pw .card-pw-btn button {
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+  border: none;
+  background-color: #f2d357;
+  color: #382c50;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+  border-radius: 5px;
+}
+.password-generator .pwg-content .pwg-card .pwg-card-pw .card-pw-btn button:hover {
+  background-color: #382c50;
+  color: #f2d357;
+}
+.password-generator .pwg-content .pwg-card .pwg-card-pw .card-pw-btn button:active {
+  background-color: #382c50;
+  color: #856b04;
+}
+.password-generator .pwg-content .pwg-card .pwg-card-options {
+  margin: 0 8%;
+  width: 84%;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+.password-generator .pwg-content .pwg-card .pwg-card-options .card-option {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.password-generator .pwg-content .pwg-card .pwg-card-options .card-option p {
+  font-family: "okine";
+  color: #FFF;
+  font-size: 18px;
+}
+.password-generator .pwg-content .pwg-card .pwg-card-options .card-option .option-number {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #382c50;
+  color: #FFF;
+  padding: 0 5px;
+}
+.password-generator .pwg-content .pwg-card .pwg-card-btn {
+  margin: 0 8%;
+  width: 84%;
+}
+.password-generator .pwg-content .pwg-card .pwg-card-btn button {
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  font-family: "okine";
+  font-weight: 900;
+  background-color: #f2d357;
+  color: #382c50;
+  border: none;
+  border-radius: 8px;
+  font-size: 24px;
+  transition: all 0.2s ease;
+}
+.password-generator .pwg-content .pwg-card .pwg-card-btn button:hover {
+  background-color: #382c50;
+  color: #f2d357;
+}
+.password-generator .pwg-content .pwg-card .pwg-card-btn button:active {
+  background-color: #210c49;
+  color: #f2d357;
+}
 
 /* ######### RESPONSIVE ######### */
 /* ### SMARTPHONE ### */
-@media (max-width: 576px) {
-
-}
-
 /* ### TABLET ### */
-@media (min-width: 577px) and (max-width: 768px) {
-
-}
-
 /* ### DESKTOP ### */
-@media (min-width: 769px) and (max-width: 1024px) {
-
-}
-
 /* ### BIG DESKTOP ### */
-@media (min-width: 1025px) {
+/* ########### FOOTER ########### */
+/* ######### RESPONSIVE ######### */
+/* ### SMARTPHONE ### */
+/* ### TABLET ### */
+/* ### DESKTOP ### */
+/* ### BIG DESKTOP ### */
 
-}
+/*# sourceMappingURL=app.css.map */

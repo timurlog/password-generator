@@ -1,5 +1,115 @@
-/* ### SECTION 1 ### */
-
+/* ### SECTION PASSWORD GENERATOR ### */
+.password-generator
+    height: 100vh
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    .pwg-content
+        width: 100%
+        height: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        .pwg-card
+            width: 320px
+            height: 500px
+            display: flex
+            flex-direction: column
+            justify-content: space-evenly
+            background: #5E4B86
+            border-radius: 10px
+            .pwg-card-title
+                display: flex
+                justify-content: center
+                align-items: center
+                text-align: center
+                h1
+                    font-family: "okine"
+                    font-size: 28px
+                    color: #f2d357
+            .pwg-card-pw
+                margin: 0 8%
+                padding: 0 15px
+                width: 84%
+                height: 50px
+                display: flex
+                justify-content: space-between
+                align-items: center
+                background-color: #382c50
+                border-radius: 8px
+                .card-pw-text
+                    input
+                        background: none
+                        border: none
+                        border-bottom: #f2d357 2px solid
+                        color: #FFF
+                        outline: none
+                        height: 33px
+                        width: 90%
+                        font-size: 18px
+                .card-pw-btn
+                    button
+                        cursor: pointer
+                        height: 35px
+                        width: 35px
+                        border: none
+                        background-color: #f2d357
+                        color: #382c50
+                        font-size: 22px
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        transition: all 0.2s ease
+                        border-radius: 5px
+                    button:hover
+                        background-color:#382c50
+                        color: #f2d357
+                    button:active
+                        background-color:#382c50
+                        color: #856b04
+            .pwg-card-options
+                margin: 0 8%
+                width: 84%
+                display: flex
+                gap: 15px
+                flex-direction: column
+                .card-option
+                    display: flex
+                    justify-content: space-between
+                    width: 100%
+                    p
+                        font-family: "okine"
+                        color: #FFF
+                        font-size: 18px
+                    .option-number
+                        border-radius: 5px
+                        border: none
+                        outline: none
+                        background-color: #382c50
+                        color: #FFF
+                        padding: 0 5px
+            .pwg-card-btn
+                margin: 0 8%
+                width: 84%
+                button
+                    cursor: pointer
+                    width: 100%
+                    height: 50px
+                    font-family: "okine"
+                    font-weight: 900
+                    background-color: #f2d357
+                    color: #382c50
+                    border: none
+                    border-radius: 8px
+                    font-size: 24px
+                    transition: all 0.2s ease
+                button:hover
+                    background-color:#382c50
+                    color: #f2d357
+                button:active
+                    background-color:#210c49
+                    color: #f2d357
 
 /* ######### RESPONSIVE ######### */
 /* ### SMARTPHONE ### */
